@@ -1,0 +1,26 @@
+.captions{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 15, 152,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    flex-direction: column;
+    opacity: 0;
+    padding-top: 70%;
+    transition: 0.5s;
+}
+
+.program:hover .captions{
+    opacity: 1;
+    padding-top: 0;
+}
+.captions img{
+    width: 60px;
+    margin-bottom: 10px;
+}
